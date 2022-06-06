@@ -1,0 +1,13 @@
+body{
+    background-color: #e0f2fe;
+}
+
+#checkbox:hover{
+cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    margin-left: 37vw;
+}
