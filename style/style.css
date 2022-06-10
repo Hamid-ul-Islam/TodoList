@@ -11,3 +11,8 @@ cursor: pointer;
     display: flex;
     margin-left: 37vw;
 }
+
+.relative {
+    position: relative;
+    right: 34%;
+}
