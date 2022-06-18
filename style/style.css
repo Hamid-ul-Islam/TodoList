@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      html{
+        max-width: 100vw;
+        max-height: 100vh;
+        box-sizing: border-box;
+      }
+
+      .inputbox{
+        position: relative;
+        left: 45%;
+      }
+        body{
+          font-family: Poppins;
+    background-color: #e0f2fe;
+        }
+
+
+.relative {
+    position: relative;
+    right: 34%;
+}
+.addbtn{
+  padding: 9px;
+  
+}
+#checkbox:hover{
+cursor: pointer;
+}

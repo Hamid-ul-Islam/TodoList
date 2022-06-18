@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="style/style.css">
+<script src="https://kit.fontawesome.com/3fa91e591f.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Task Todo</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="relative">
+          <div class="absolute top-4 left-3">
+            <input
+              type="checkbox"
+              class="form-tick h-6 w-6 border border-gray-300 rounded-md checked:bg-blue-600 checked:border-transparent focus:outline-none appearance-none"
+            />
+            
+          </div>
+          
+          <!-- new box -->
+          
+
+
+          <div class="inputbox top-2 right-2">
+            <input
+            id="addTxt"
+            type="text"
+            class="h-12 px-10 rounded-lg z-0 focus:shadow focus:outline-none"
+            placeholder="What ToDo?..."
+          />
+
+
+            <button
+              id="addBtn"
+              onclick="additems()"
+              class="addbtn text-white rounded-lg bg-red-500 hover:bg-red-600"
+            >
+            <i class="fa-solid fa-circle-plus"></i>
+            </button>
+
+          </div>
+        </div>
+      </div>
+<!-- todo box -->
+      <div
+      id="notes"
+      class="p-4 mt-4 max-w-7xl mx-auto bg-white rounded-xl shadow-md"
+    >
+<strong  style="text-align: center;">Your ToDo Lists:</strong>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
