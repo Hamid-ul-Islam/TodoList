@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-Click here [https://hamidthedev.github.io/TodoList/]
+Click here [https://hamid-ul-islam.github.io/TodoList/]
 
 ## Screenshots
 
